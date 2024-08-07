@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Fontawesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+   
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Babita Chamlagain</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>  Hi, I'm Babita Chamlagain, a recent BSc CSIT graduate with a passion for software engineering
+                 and front-end development. I have hands-on experience from my internship at SoftLab Inc., where 
+                 I contributed to a routine management system project for an institute. I possess skills in HTML,
+                  CSS, JavaScript, Bootstrap, and  PHP, and I am continuously expanding my knowledge in React
+                   and other modern technologies. My goal is to create intuitive and engaging user experiences, and 
+                   I am eager to apply my skills and learn more in a professional setting.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+
+        </div>
+        <div class="home-img">
+            <img src="img/profiledp.png" alt="" >
+        </div>
+    </section>
+
+    <!--About section-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/profiledp.png" alt="" >
+        </div>
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>
+            As an energetic and driven BSc CSIT college student, I bring a passion for web development
+             and creating captivating user experiences. Proficient in HTML, CSS, JavaScript, PHP, MySQL,
+              Bootstrap, and React and also I have a solid grasp of UX/UI principles. During my internship
+               at SoftLab Inc Pvt. Ltd, I had build Frontend of the routine management system .I had build different projects like
+                SkillXHub, an e-learning platform, and a user sign-up form for Code Books, utilizing a 
+                range of web technologies to ensure responsive and engaging user experiences. I am proactive, 
+                self-motivated, and eager to leverage my theoretical knowledge and enthusiasm in a professional 
+                setting, continuously seeking opportunities for learning and growth. </p>
+     
+        <div class="tabs">
+            <div class="tab active" data-tab="skills">Skills</div>
+            <div class="tab" data-tab="experience">Experience</div>
+            <div class="tab" data-tab="education">Education</div>
+        </div>
+
+        <div id="skills" class="tab-content active">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>Bootstrap</li>
+                <li>React</li>
+                <li>UX/UI Design Principles</li>
+            </ul>
+        </div>
+
+        <div id="experience" class="tab-content">
+            <h3>Experience</h3>
+            <ul>
+                <li>Internship at SoftLab Inc Pvt. Ltd: Frontend Development</li>
+            </ul>
+        </div>
+
+        <div id="education" class="tab-content">
+            <h3>Education</h3>
+            <ul>
+                <li>BSc CSIT, Shreeyantra College</li>
+            </ul>
+        </div>
+    </div>
+    </section>
+ <!--services section-->
+<section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="services-container">
+    <div class="services-box">
+        <i class="fa-solid fa-code"></i>
+        <h3>Web Development</h3>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, blanditiis? Reiciendis culpa, sit quasi non odit sunt facere cumque harum porro minima neque velit tempora corporis impedit? Non, aspernatur aliquam.</p>
+         <a href="#" class="btn"> Read more</a>
+    </div>
+    <div class="services-box">
+        <i class="fa-solid fa-palette"></i>
+        <h3>UX/UI Designing</h3>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, blanditiis? Reiciendis culpa, sit quasi non odit sunt facere cumque harum porro minima neque velit tempora corporis impedit? Non, aspernatur aliquam.</p>
+         <a href="#" class="btn"> Read more</a>
+    </div>
+    
+    
+    </div>
+</section>
+
+
+<!-- portfolio section-->
+ <section class="portfolio" id="portfolio">
+ <h2 class="heading">Latest <span>Projects</span></h2>
+<div class="portfolio-container">
+    <div class="portfolio-box">
+        <img src="img/1.jpg" alt="photo1">
+        <div class="portfolio-layer">
+            <h4>Login/Signup System</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+    </div>
+    <div class="portfolio-box">
+        <img src="img/2.jpg" alt="photo1">
+        <div class="portfolio-layer">
+            <h4>Spotify Clone</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+    </div>
+    <div class="portfolio-box">
+        <img src="img/6.jpg" alt="photo1">
+        <div class="portfolio-layer">
+            <h4>E-Learning Platform</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+    </div>
+    <div class="portfolio-box">
+        <img src="img/4.jpg" alt="photo1">
+        <div class="portfolio-layer">
+            <h4>Weather App</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+    </div>
+    <div class="portfolio-box">
+        <img src="img/5.jpg" alt="photo1">
+        <div class="portfolio-layer">
+            <h4>Blog App</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+    </div>
+    <div class="portfolio-box">
+        <img src="img/3.jpg" alt="photo1">
+        <div class="portfolio-layer">
+            <h4>To Do App</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+    </div>
+  
+</div>
+</section>
+
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form name="submit-to-google-sheet" action="#">
+        <div class="input-box">
+        <input type="text" name="Name" placeholder="Full Name">
+        <input type="email"  name="Email" placeholder="example@gmail.com">
+    </div>
+    <div class="input-box">
+        <input type="number" name="Number" placeholder="Ph:98xxxxxxx">
+        <input type="text" name="Subject" placeholder="Subject">
+    </div>
+    <textarea name="Message" id="" rows="10" placeholder="Your Message"></textarea>
+<input type="submit" value="Send Message" class="btn">    
+</form>
+<span id="msg"></span>
+</section>
+   
+<!--Footer-->
+<footer class="footer">
+    <div class="footer-text">
+        <p> Copyright &copy; 2024 by Babita Chamlagain| All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+</footer>
+<!--Reveal scroll-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!-- typed js-->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script src="index.js"></script>
+<script>
+    document.querySelectorAll('.tab').forEach(tab => {
+        tab.addEventListener('click', function() {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(tc => tc.classList.remove('active'));
+            this.classList.add('active');
+            document.getElementById(this.dataset.tab).classList.add('active');
+        });
+    });
+    document.querySelectorAll('.tab-content').forEach(tc => tc.classList.remove('active'));
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxX1aBm6b_N3B56HTnF_vpSNEhKLFAlRjhfy_ubELNZ7BcDGrQZaxI4bGhCTY6l_o_3/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function()
+            {
+                msg.innerHTML= ""
+            }, 5000)
+            form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>

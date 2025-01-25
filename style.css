@@ -317,6 +317,7 @@ span{
     border-color: var(--main-color);
     transform: scale(1.02);
 }
+
 .services-box i{
     font-size:7rem;
     color: var(--main-color);
@@ -329,6 +330,65 @@ font-size:2.6rem;
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
+
+/* Tools and Technology Section Styling */
+.tools-and-technology h2 {
+    font-size: 4rem;
+  text-align: center;
+    margin-bottom: 5rem;
+}
+
+/* Tools Container */
+.tools-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* Tool Box Styling */
+.tools-container .tool-box {
+    flex: 1 1 30rem;
+    background: var(--snd-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.2rem solid var(--bg-color);
+    transition: 0.5s ease;
+}
+
+.tools-container .tool-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+/* Icon Styling */
+.tool-box i,
+.tool-box img {
+    font-size: 7rem;
+    color: var(--main-color);
+    width: auto;
+    height: auto;
+}
+
+.tool-box img {
+    object-fit: contain;
+    max-height: 7rem; /* Ensures proper sizing for non-FontAwesome icons */
+}
+
+/* Tool Heading */
+.tool-box h3 {
+    font-size: 2.6rem;
+}
+
+/* Tool Description */
+.tool-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+
 
 .portfolio{
     text-align:center;

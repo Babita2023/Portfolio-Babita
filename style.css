@@ -289,7 +289,7 @@ span{
     font-size: 1.6rem;
 }
 
-.skills-list {
+#skills .skills-list {
 
     display: flex;
     flex-wrap: wrap;
@@ -298,7 +298,7 @@ span{
     padding: 0;
 }
 
-.skills-list li {
+#skills .skills-list li {
     flex: 1 1 150px; /* Adjust this to control column width */
  
     padding: 10px;

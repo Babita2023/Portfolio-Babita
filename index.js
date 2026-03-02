@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
   let sections = document.querySelectorAll("section");
   let navLinks = document.querySelectorAll("header nav a");
   let header = document.querySelector("header");
+  const learnMoreBtn = document.querySelector('.learn-more-btn');
+  const projectDetails = document.querySelector('.project-details');
 
   // Toggle Menu Icon and Navbar
   menuIcon.onclick = () => {
@@ -41,6 +43,17 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+
+ learnMoreBtn.addEventListener('click', () => {
+    if (projectDetails.style.display === 'block') {
+      projectDetails.style.display = 'none';
+      learnMoreBtn.textContent = 'Learn More';
+    } else {
+      projectDetails.style.display = 'block';
+      learnMoreBtn.textContent = 'Show Less';
+    }
+  });
 
 /*let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
